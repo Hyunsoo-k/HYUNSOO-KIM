@@ -1,7 +1,8 @@
 export type Project = {
   name: string;
   thumbnailUrl: string;
-  isSolo: boolean;
+  personnel: number;
+  Contribution: number;
   summary: string;
   details: string[];
   githubUrl: string;

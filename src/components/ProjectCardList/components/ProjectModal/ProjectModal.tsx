@@ -60,6 +60,12 @@ export const ProjectModal = () => {
           <p className={styles.summary}>{project.summary}</p>
         </div>
         <div className={styles.area}>
+          <h3 className={styles.areaTitle}>Personnel</h3>
+          <p className={styles.personnel}>
+            {project.personnel}인 개발, 기여도 {project.Contribution}%
+          </p>
+        </div>
+        <div className={styles.area}>
           <h3 className={styles.areaTitle}>Detail</h3>
           <ul className={styles.detailList}>
             {project.details.map((detail: string, index: number) => (
