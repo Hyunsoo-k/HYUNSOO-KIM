@@ -4,7 +4,8 @@ export const PROJECTS: Project[] = [
   {
     name: "BeanTalk",
     thumbnailUrl: "/images/beanTalk/thumbnail.png",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     summary: "일방적인 정보전달 방식의 웹 커뮤니티가 많은 커피 커뮤니티를 벗어나 다양한 카테고리에서의 사용자 참여와 운영자 권한으로 올리는 뉴스 카테고리를 가진 웹 애플리케이션 입니다.",
     details: [
       "Tiptap 위지위그와 DaumMapApi를 결합한 사용자 중심 CRUD 기능 구현",
@@ -20,7 +21,8 @@ export const PROJECTS: Project[] = [
   {
     name: "BeanTalk API Server",
     thumbnailUrl: "/images/beanTalkApiServer/thumbnail.jpg",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     summary: "BeanTalk 프로젝트의 api 서버 프로젝트 입니다.",
     details: [
       "미들웨어와 컨트롤러의 명확한 분리로 프로세서의 명확성 강조",
@@ -29,27 +31,46 @@ export const PROJECTS: Project[] = [
       "클라이언트에서 사용하는 지도 sdk를 위한 프록시 라우트 구현."
     ],
     skills: ["typescript", "nodeJs", "mongoDb", "mongoose", "jwt"],
-    skillIconUrls: ["/icons/nodeJs.svg", "/icons/expressJs.svg", "/icons/mongoDb.svg"],
+    skillIconUrls: ["/icons/typescript.svg", "/icons/nodeJs.svg", "/icons/expressJs.svg", "/icons/mongoDb.svg"],
     githubUrl: "https://github.com/Hyunsoo-k/bean-talk-server",
+  },
+  {
+    name: "National Cultural Festival",
+    thumbnailUrl: "/images/nationalCulturalFestival/thumbnail.png",
+    personnel: 1,
+    Contribution: 100,
+    summary: "전국의 문화·축제 정보를 확인할 수 있는 웹 사이트.",
+    details: [
+      "Next Proxy Api를 이용한 env값의 브라우저 노출 방지.",
+      "공공 api를 활용한 빠른 개발.",
+      "하이드레이션 최소화를 위한 서버 컴포넌트의 명확한 분리.",
+      "카카오 맵 API 이용."
+    ],
+    deployUrl: "https://national-cultural-festival.vercel.app/",
+    skills: ["typescript", "nextJs", "tanstackQuery", "scss"],
+    skillIconUrls: ["/icons/typescript.svg", "/icons/nextJs.svg", "/icons/tanstackQuery.svg", "/icons/sass.svg"],
+    githubUrl: "https://github.com/Hyunsoo-k/national-cultural-festival",
   },
   {
     name: "BlueNote",
     thumbnailUrl: "/images/blueNote/thumbnail.png",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     summary: "음악을 전공하던 시절 재즈 뮤지션들을 위한 애플리케이션 시장이 상당히 좁다는걸 느끼고 시작한 프로젝트 입니다. 뉴스, 홍보, 자유게시판 등 사용자들의 자유로운 참여를 유도하였습니다.",
     details: [
       "nextJs + getServerSideProps를 이용한 서버사이드 데이터 패칭.",
       "tanstackQuery를 이용한 클라이언트 레벨의 서버 데이터 관리",
       "quill 위지위그 에디터를 이용한 사용자 경험 고려."
     ],
-    skills: ["nestJs", "typescript", "tanstackQuery", "reactHookForm", "quill", "scss"],
+    skills: ["nextJs", "typescript", "tanstackQuery", "reactHookForm", "quill", "scss"],
     skillIconUrls: ["/icons/typescript.svg", "/icons/nextJs.svg", "/icons/tanstackQuery.svg", "/icons/sass.svg"],
     githubUrl: "https://github.com/Hyunsoo-k/BlueNote",
   },
   {
     name: "BlueNote API Server",
     thumbnailUrl: "/images/blueNoteApiServer/thumbnail.jpg",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     summary: "BlueNote 프로젝트의 api 서버 프로젝트입니다.",
     details: [
       "여러 개의 textHTML을 반환하기 전 서버레벨에서 가상 dom을 이용한 WYSISYG 문자열 데이터 최적화.",
@@ -73,7 +94,8 @@ export const PROJECTS: Project[] = [
   {
     name: "NoteBookly",
     thumbnailUrl: "/images/noteBookly/thumbnail.png",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     summary: "카카오 브런치스토리를 참고하여 만든 에세이 웹 애플리케이션 입니다.",
     details: [
       "quill 위지위그를 제치고 점유율 1위를 새롭게 갱신한 tiptap 사용.",
@@ -87,7 +109,8 @@ export const PROJECTS: Project[] = [
   {
     name: "NoteBookly API Server",
     thumbnailUrl: "/images/noteBooklyApiServer/thumbnail.jpg",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     summary: "NoteBookly의 API 서버 프로젝트 입니다.",
     details: [
       "typescript + express를 적용한 첫 api 서버 개발.",
@@ -100,7 +123,8 @@ export const PROJECTS: Project[] = [
   {
     name: "Developer_Hyunsoo_kim",
     thumbnailUrl: "/images/developerHyunsooKim/thumbnail.png",
-    isSolo: true,
+    personnel: 1,
+    Contribution: 100,
     deployUrl: "https://portfolio-orpin-five-18.vercel.app/",
     summary: "개발자답게 문서가 아닌 웹으로 소개하기위한 사이트 구 포트폴리오 사이트입니다.",
     details: [
@@ -114,7 +138,8 @@ export const PROJECTS: Project[] = [
   {
     name: "Synamon",
     thumbnailUrl: "/images/synamon/thumbnail.png",
-    isSolo: false,
+    personnel: 4,
+    Contribution: 35,
     deployUrl: "https://synamon.vercel.app/",
     summary: "동호회 활동을 위한 구인 사이트.",
     details: [
@@ -129,7 +154,8 @@ export const PROJECTS: Project[] = [
   {
     name: "The-julge",
     thumbnailUrl: "/images/theJulge/thumbnail.png",
-    isSolo: false,
+    personnel: 5,
+    Contribution: 20,
     summary: "급하게 아르바이트생이 필요한 가게 점주들을 위한 웹 애플리케이션 입니다.",
     details: [
       "reackHookForm을 사용하지 않은 커스텀 입력값 검증 함수 사용",
@@ -142,7 +168,8 @@ export const PROJECTS: Project[] = [
   {
     name: "Rolling",
     thumbnailUrl: "/images/rolling/thumbnail.jpg",
-    isSolo: false,
+    personnel: 5,
+    Contribution: 30,
     summary: "급하게 아르바이트생이 필요한 가게 점주들을 위한 웹 애플리케이션 입니다.",
     details: [
       "개발자로써의 첫 프로젝트, 오픈 레터 형식의 웹 애플리케이션",
