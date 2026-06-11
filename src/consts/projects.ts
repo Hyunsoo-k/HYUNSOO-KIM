@@ -52,6 +52,22 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Hyunsoo-k/national-cultural-festival",
   },
   {
+    name: "WEFLOW WEB",
+    thumbnailUrl: "/images/weflow/thumbnail.png",
+    personnel: 1,
+    Contribution: 100,
+    summary: "웹 에이전시 WELOW사의 면접 과제물",
+    details: [
+      "제한된 텍스트로 디자인 창작, 배포까지 2일 반 가량에 끝냈던 프로젝트.",
+      "최신 트렌드에 맞게 모던하고 밝은 디자인과 사용자 경험",
+      "하이드레이션 최소화를 위한 서버 컴포넌트의 명확한 분리.",
+    ],
+    deployUrl: "https://weflow-mu.vercel.app/",
+    skills: ["typescript", "nextJs", "scss", "zustand"],
+    skillIconUrls: ["/icons/typescript.svg", "/icons/nextJs.svg", "/icons/sass.svg"],
+    githubUrl: "https://github.com/Hyunsoo-k/WEFLOW",
+  },
+  {
     name: "BlueNote",
     thumbnailUrl: "/images/blueNote/thumbnail.png",
     personnel: 1,
